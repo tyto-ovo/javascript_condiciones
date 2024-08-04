@@ -1,6 +1,8 @@
 body {
   background-color: black;
   color: white;
+  /*   display: flex;
+  flex-direction: column; */
 }
 .box {
   display: flex;
@@ -13,7 +15,7 @@ body {
   margin-top: 10%;
 }
 h1 {
-  margin-left: 45%;
+  margin-left: 41%;
 }
 .box img {
   max-width: 200px;
@@ -29,4 +31,15 @@ h1 {
 .total-section {
   display: flex;
   justify-content: center;
+}
+.casillas {
+  display: grid;
+  place-items: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20%;
+}
+.confirmar {
+  width: 200px;
+  margin-left: 41%;
 }

@@ -95,4 +95,20 @@ const contadorMasTres = () => {
 
 // -------- CONTRASEÑAS -------- //
 
+const contraseñaCorrecta1 = 911;
+const contraseñaCorrecta2 = 714;
+
+let btnEnviar = document.querySelector(".boton");
+let checked = document.querySelector("#correcto");
+let digito = document.querySelector("input");
+
+btnEnviar.addEventListener("click", function () {
+  if (digito.value == contraseñaCorrecta1) {
+    checked.innerHTML = "Password 1 correcto";
+  } else if (digito.value == contraseñaCorrecta2) {
+    checked.innerHTML = "Password 2 es correcto";
+  } else {
+    checked.innerHTML = "Password incorrecto";
+  }
+});
 // -------- ----------- -------- //
