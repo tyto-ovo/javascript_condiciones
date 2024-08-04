@@ -7,6 +7,38 @@
     <link rel="stylesheet" href="./assets/CSS/style.css" />
   </head>
   <body>
+    <h1>Stickers</h1>
+    <div class="box">
+      <div class="container">
+        <img src="./assets/imgs/sticker-1.jpg" alt="" />
+        <p>
+          <button onclick="contadorMenosUno()">-</button>
+          <span class="cantidad-sticker-1">0</span>
+          <button onclick="contadorMasUno()">+</button>
+        </p>
+      </div>
+      <div class="container">
+        <img src="./assets/imgs/sticker-2.jpg" alt="" />
+        <p>
+          <button onclick="contadorMenosDos()">-</button>
+          <span class="cantidad-sticker-2">0</span>
+          <button onclick="contadorMasDos()">+</button>
+        </p>
+      </div>
+      <div class="container">
+        <img src="./assets/imgs/sticker-3.jpg" alt="" />
+        <p>
+          <button onclick="contadorMenosTres()">-</button>
+          <span class="cantidad-sticker-3">0</span>
+          <button onclick="contadorMasTres()">+</button>
+        </p>
+      </div>
+    </div>
+
+    <div class="total-section">
+      <p>Llevas <span class="cantidad-total">0</span> stickers.</p>
+    </div>
+
     <script src="./assets/js/script.js"></script>
   </body>
 </html>

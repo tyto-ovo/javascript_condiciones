@@ -11,5 +11,22 @@ body {
 .foto {
   max-width: 300px;
   margin-top: 10%;
-/*   border: 2px solid red; */
+}
+h1 {
+  margin-left: 45%;
+}
+.box img {
+  max-width: 200px;
+  margin: 20px;
+  margin-top: 10%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.total-section {
+  display: flex;
+  justify-content: center;
 }
